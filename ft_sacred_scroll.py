@@ -1,5 +1,6 @@
 import alchemy
-import alchemy.elements
+
+
 print("\n=== Sacred Scroll Mastery ===\n")
 
 print("Testing direct module access:")
@@ -15,11 +16,12 @@ print(f"alchemy.create_water() {alchemy.create_water()}")
 try:
     print(f"alchemy.create_earth() {alchemy.create_earth()}")
 except AttributeError:
-    print(f"alchemy.create_earth(): AtributeError - not exposed")
+
+    print("alchemy.create_earth(): AtributeError - not exposed")
 try:
     print(f"alchemy.create_air() {alchemy.create_air()}")
 except AttributeError:
-    print(f"alchemy.elements.create_air(): AtributeError - not exposed")
+    print("alchemy.elements.create_air(): AtributeError - not exposed")
 
 print("\nPackage metadata")
 print(f"Version: {alchemy.__version__}")
