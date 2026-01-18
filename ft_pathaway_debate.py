@@ -1,7 +1,8 @@
-from alchemy.trasmutation.basic import lead_to_gold, stone_to_gem
-from alchemy.trasmutation.advanced import philosophers_stone, elixir_of_life
+from alchemy.trasmutation import lead_to_gold, stone_to_gem
+from alchemy.trasmutation import philosophers_stone, elixir_of_life
 import alchemy
 
+print("\n=== Pathway Debate Mastery ===\n")
 print("Testing Absolute Imports (from basic.py):")
 print(f"lead_to_gold(): {lead_to_gold()}")
 print(f"stone_to_gem(): {stone_to_gem()}\n")
