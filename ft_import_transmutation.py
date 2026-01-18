@@ -1,7 +1,8 @@
 import alchemy.elements
-from alchemy.elements import create_water, create_earth, create_fire
+from alchemy.elements import create_fire
 from alchemy.potions import healing_potion as heal
 from alchemy.potions import strength_potion
+from alchemy.elements import create_water, create_earth
 
 print("\nImport Transmution Mastery ===\n")
 

@@ -21,7 +21,7 @@ except AttributeError:
 try:
     print(f"alchemy.create_air() {alchemy.create_air()}")
 except AttributeError:
-    print("alchemy.elements.create_air(): AtributeError - not exposed")
+    print("alchemy.create_air(): AtributeError - not exposed")
 
 print("\nPackage metadata")
 print(f"Version: {alchemy.__version__}")
